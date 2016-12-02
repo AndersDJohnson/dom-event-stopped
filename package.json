@@ -2,10 +2,16 @@
   "name": "dom-event-stopped",
   "version": "1.0.0",
   "description": "If DOM event was stopped, with optional handler.",
-  "main": "index.js",
+  "main": "build/dom-event-stopped.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:src": "babel src -d build"
   },
   "author": "Anders D. Johnson",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.18.0",
+    "babel-preset-latest": "^6.16.0"
+  }
 }
