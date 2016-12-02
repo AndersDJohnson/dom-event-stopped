@@ -1,6 +1,6 @@
 {
   "name": "dom-event-stopped",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "If DOM event was stopped, with optional handler.",
   "main": "build/dom-event-stopped.js",
   "scripts": {
