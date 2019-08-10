@@ -1,6 +1,10 @@
 # dom-event-stopped
 Detect and react to a DOM event that was stopped or prevented.
 
+```
+npm add dom-event-stopped
+```
+
 ```js
 import domEventStopped from 'dom-event-stopped'
 
